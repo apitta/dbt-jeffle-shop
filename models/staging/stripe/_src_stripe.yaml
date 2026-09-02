@@ -1,7 +1,6 @@
 sources:
-  - name: jaffle_shop
+  - name: stripe
     database: dbt-tutorial
     schema: jaffle_shop
     tables:
-      - name: customers
-      - name: orders
+      - name: payments
